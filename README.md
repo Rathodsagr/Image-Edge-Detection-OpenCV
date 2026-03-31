@@ -1,27 +1,30 @@
-# Image-Edge-Detection-OpenCV
 # Image Edge Detection using OpenCV
 
 ## Overview
-This project performs edge detection on an image using OpenCV. Edge detection is an important technique in computer vision used to identify object boundaries in images.
+This project performs edge detection on an image using OpenCV in Python. Edge detection is an important technique in computer vision used to detect object boundaries and edges in images.
 
 ## Features
-- Load image
-- Convert to grayscale
+- Load an image
+- Convert image to grayscale
 - Apply Canny edge detection
-- Display output image
-- Save edge detected image
+- Display original and edge detected images
+- Save output image
 
 ## Technologies Used
 - Python
 - OpenCV
 - NumPy
+- GitHub
 
 ## Installation
-pip install -r requirements.txt
+1. Clone the repository:
+   git clone https://github.com/Rathodsagr/Image-Edge-Detection-OpenCV
 
-## Usage
-Place an image named input.jpg in the project folder and run:
-python edge_detection.py
+2. Install dependencies:
+   pip install -r requirements.txt
+
+3. Run the program:
+   python edge_detection.py
 
 ## Project Structure
 Image-Edge-Detection-OpenCV
@@ -30,10 +33,18 @@ Image-Edge-Detection-OpenCV
 ├── requirements.txt
 ├── README.md
 ├── input.jpg
-└── edges_output.jpg
+├── edges_output.jpg
+└── project_report.docx
+
+## Results
+The program successfully detects edges from the input image and saves the output as edges_output.jpg.
 
 ## Applications
 - Image processing
 - Object detection preprocessing
-- Computer vision
+- Computer vision systems
 - Medical image analysis
+- Autonomous vehicles
+
+## Conclusion
+This project demonstrates edge detection using OpenCV and Python. The Canny edge detection algorithm is used to detect edges in an image and display the results.
